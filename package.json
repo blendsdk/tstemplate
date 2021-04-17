@@ -6,13 +6,15 @@
   "author": "Gevik Babakhani <gevik@blendjs.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently -k \"tsc -w\" \"sleep 5 && nodemon ./dist/index.js\""
+    "dev": "concurrently -k \"tsc -w\" \"sleep 5 && nodemon ./dist/index.js\"",
+    "ncu": "ncu -u"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
     "concurrently": "^6.0.2",
     "ncu": "^0.2.1",
     "nodemon": "^2.0.7",
+    "npm-check-updates": "^11.4.1",
     "typescript": "^4.2.4"
   }
 }
